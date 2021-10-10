@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Júlia | Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">FECHAR</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">FOTOS</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">SOBRE NÓS</a> 
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTATO</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Fotos do seu amor</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+  
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-quarter">
+      <img src="mike-1.JPG" style="width:100%" onclick="onClick(this)" alt="Miquéias 1">
+      <img src="mike-2.jpg" style="width:100%" onclick="onClick(this)" alt="Miquéias 2">
+      <img src="mike-3.JPG" style="width:100%" onclick="onClick(this)" alt="Miquéias 3">
+   </div>
+    
+   <div class="w3-quarter">
+      <img src="mike-4.jpg" style="width:100%" onclick="onClick(this)" alt="Se não me engano, essa foto foi qno dia que você tava vindo para minha casa. Lembro de ter visto e me assustado com a beleza da mulher que estava vindo para minha humilde residência.">
+      <img src="mike-5.jpg" style="width:100%" onclick="onClick(this)" alt="Esse dia foi tooopppp. A gente assistiu, se pegou muito (coisa que smp rola quando a gnt se vê).">
+      <img src="mike-6.jpg" style="width:100%" onclick="onClick(this)" alt="AAAAAAAAAAAHHHHH. Foto do Habibs. Eu amei esse dia(assim como todos os outros). Vi minha sogra pela primeira vez. E comi 15 esfirras kkkkkkk">
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="mike-7.jpg" style="width:100%" onclick="onClick(this)" alt="Essa aqui está guardada no meu coração. Nosso primeiro encontro, nosso primeiro beijo, meu primeiro bj(lê em inglês, rsrs). Meu amor tava se deliciando com um nuggte do Bos's. Nunca vou esquecer a sensação de estar te esperando no acesso norte e dps de muita espera, ver a coisa mais linda que eu já vi passar, você estava incrível mo. muito">
+      <img src="mike-8.jpg" style="width:100%" onclick="onClick(this)" alt="Um dos nossos encontros no shopping, o qual smp terminavem em espacionamento kkkkkkkkkkkkk">
+      <img src="mike-9.jpg" style="width:100%" onclick="onClick(this)" alt="Amo ir em sua casa, apesar de estar em um bairro perigoso, e essa foto parece muito aquela que o cara está chupando o peito da menina, inclusive quero rsrs">
+    </div>
+
+    <div class="w3-quarter">
+        <img src="mike-10.jpg" style="width:100%" onclick="onClick(this)" alt="MTO GOSTOSA, PARECE UM Vectra CD turbo com Turbina Holset HX-35, Válvula de Alívio SPA Compact, Intercooler frontal, Pressurização em Alumínio 2,5,Escape 2,5 com 1 abafador JK, Pistões IASA 87mm (p/ 700cv), Bielas K1 (p/ 700cv), Parafusos ARP, Anéis NPR, Blockguard GM 2.4 16v retrabalhada, junta de cabeçote de aço de Astra Flex, Cabeçote 16v 100% original, comandos originais, tuchos novos, taxa 10,0:1,Ventoinhas SLIM, Injeção Megasquirt MS2-V3 com correção por sonda Wideband AEM, auto-acerto de mapa de combustível, Two Step e Flat Shift acionados por botão no pedal de embreagem, 4 bicos Fuel Injector Clinic (FIC) 1050cc baixa impedância com resistores, Bomba de combustível Dinâmica 12bar no lugar da original + 1 de Mercedes externa (embaixo da porta traseira do passageiro), Linha de combustível 9,5mm, filtro de c ">
+        <img src="mike-11.jpg" style="width:100%" onclick="onClick(this)" alt="muito linda parece uma geladeira novinha Electrolux Frost Free Duplex 360 litros, 600mm da cor inox parte frontal com controle de temperatura externo blue toutch com dispenser de agua prateleiras removíveis com trava garrafas pra adicionar até 3 garrafas de três litros">
+        <img src="mike-12.jpg" style="width:100%" onclick="onClick(this)" alt="você é tão linda parece uma pista hot wheels ataque do tubarão">
+      </div>
+  </div>
+
+ <!-- Pagination -->
+ <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="file:///C:/Users/Casa/Documents/curso%20JS/Para%20Julia/pag-2.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="file:///C:/Users/Casa/Documents/curso%20JS/Para%20Julia/pag-1.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="file:///C:/Users/Casa/Documents/curso%20JS/Para%20Julia/pag-2.html"  class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="file:///C:/Users/Casa/Documents/curso%20JS/Para%20Julia/pag-3.html" class="w3-bar-item w3-black w3-button">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+    <h4><b>Sobre nós</b></h4>
+    <img src="nos.jpg" alt="Miquéias e Julia, o casal mais lindo do mundo" class="w3-image w3-padding-32">
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h4>Eternizando nossa primeira carta</h4>
+      <p>Vc deve estar se perguntando pq eu fiz essa carta, a princípio deve pensar que é algo fora de época, mas pq n viver um romance no século da putaria? Se bem que a gnt vive uma putaria retada kkkkkkk. Enfim, não tem nenhum motivo exato para eu ter feito isso, apenas julguei que vc merecia isso, por todo o amor e carinho que vc vem me dando (e outras coisas tbm, rs). E sobre aquela história de amar e tal, se amar for o sentimento de estar confortável, seguro, amado, com sdds se passar mais de 2 dias sem te ver, ficar pensando em vc 24h por dia, 7 dias por semana, sim bb, eu amo vc, e assim como vc, estou mergulhando de cabeça nisso sem pensar duas vezes, pq és diferente das outras, consigo sentir isso em vc. Espero que esteja preparada para amanhã, sei q é um grande Avanço e tal, mas vms juntos nisso, ok? Sem pressão, sem agonia ou preocupação. Se quiser ir la só para dar uns amaços, vai ser a melhor coisa do mundo, afinal, sempre é rsrs. N sei mais oq colocar aqui kkkkkkk, posso falar do quando vc estava graciosa no primeiro dia em que eu te vi. Estava muito nervoso e com medo, mas pqp, quando eu vi aquela mulher em pé no acesso norte, fodeu com meu psicológico. E vc me deixou tão a vontade, rimos tanto, e olha onde estamos hj. Ah, mais uma coisa que eu gostaria de comentar com vc, sobre minha partida para SP. Eu realmente quero estar com vc, e n vou desistir tão fácil, e n vou poupar nenhum sentimento. Mas estejamos preparados para tudo, ok? N sabemos do futuro, como as coisas serão. Por mim vc será a mulher das minhas crias e a minha nega para smp. Mas ate lá, vamo esquecer disso tudo e curtir o presente, e curtir a presença um do outro. E se n for eterno, prometo para ti que estarei la para ver você conquistar tudo, nem que n esteja ao seu lado, mas estarei muito orgulhoso. Ent é isso, minha primeira cartinha para você, quero fazer mais vezes isso, talvez la na EsPCEx,  imagina o quão fofo seria, vc ficar esperando uma carta minha chegar, a emoção de ler e tal uiuiui. Beijos bb, e é como eu falei bem no início, eu amo vc, sim sim, amo, pq esconder algo tao lindo, quanto o amor, pq me impedir de amar uma pessoa que me faz bem e que quer o meu bem tbm.  
+      </p>int: Miqueiascs_</p>
+      <p>tel: 71 99295-7418</p>
+      <hr class="w3-opacity">
+      <h4 class="w3-padding-16">Seus atributos</h4>
+      <p class="w3-wide">Inteligência</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide">Beleza</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide">Humor</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:30%">30% (muito cringe)</div>
+      </div>
+      <p class="w3-wide">Bunda</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide">Ciúmes</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:95%">95%</div>
+      </div>
+      <p class="w3-wide">Rebolado</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide">Ser parceira</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+      </div>
+      <p class="w3-wide">Carinho e afeto</p>
+      <div class="w3-white">
+        <div class="w3-container w3-padding-small w3-center w3-grey" style="width:100%">100%</div>
+      </div>
+      <p><button class="w3-button w3-light-grey w3-padding-large w3-margin-top w3-margin-bottom w3-hover-black">Download Resume</button></p>
+      <hr class="w3-opacity">
+
+      <h4 class="w3-padding-16">Quanto custa para mim</h4>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center">
+            <li class="w3-black w3-xlarge w3-padding-32">Encontrinho básico</li>
+            <li class="w3-padding-16">Metrô + busão</li>
+            <li class="w3-padding-16">Salgados de 1 real</li>
+            <li class="w3-padding-16">Algo para beber</li>
+            <li class="w3-padding-16">Carinho e atenção</li>
+            <li class="w3-padding-16">
+              <h2>R$ 15</h2>
+              <span class="w3-opacity">por semana</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large">Convidar</button>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="w3-third">
+          <ul class="w3-ul w3-white w3-center">
+            <li class="w3-black w3-xlarge w3-padding-32">Uma noite fora</li>
+            <li class="w3-padding-16">Um lanche</li>
+            <li class="w3-padding-16">Uma bebida</li>
+            <li class="w3-padding-16">Uber</li>
+            <li class="w3-padding-16">Cineminha</li>
+            <li class="w3-padding-16">
+              <h2>R$ 75</h2>
+              <span class="w3-opacity">por mês</span>
+            </li>
+            <li class="w3-light-grey w3-padding-24">
+              <button class="w3-button w3-white w3-padding-large">Convidar</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="w3-third">
+            <ul class="w3-ul w3-white w3-center">
+              <li class="w3-black w3-xlarge w3-padding-32">Rolê premium p\ Campinas</li>
+              <li class="w3-padding-16">Passagem</li>
+              <li class="w3-padding-16">Hospedagem</li>
+              <li class="w3-padding-16">Passeios</li>
+              <li class="w3-padding-16">Alimentação</li>
+              <li class="w3-padding-16">
+                <h2>R$ 900</h2>
+                <span class="w3-opacity">a cada 2 meses</span>
+              </li>
+              <li class="w3-light-grey w3-padding-24">
+                <button class="w3-button w3-white w3-padding-large">Convidar</button>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+    <div class="w3-content" style="max-width:600px">
+      <h4 class="w3-center"><b>Fale comigo</b></h4>
+      <p>Quer matar a saudade e preencha o formulário e venha ter uma experiência incrível!</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Nome</label>
+          <input class="w3-input w3-border" type="text" name="Name" required>
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input w3-border" type="text" name="Email" required>
+        </div>
+        <div class="w3-section">
+          <label>Mensagem</label>
+          <input class="w3-input w3-border" type="text" name="Message" required>
+        </div>
+        <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-grey">  
+    <div class="w3-row-padding">
+      <div class="w3-third">
+        <h3>INFO</h3>
+        <p>Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            Never gonna make you cry
+            Never gonna say goodbye
+            Never gonna tell a lie and hurt you</p>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Clique aqui</a>      
+      </div>
+    
+      <div class="w3-third">
+        <h3>FUTURAS VIAGENS</h3>
+        <ul class="w3-ul">
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="paris.jpeg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Paris</span><br>
+            <br>
+            <span>Cidade do amor</span>
+          </li>
+          <li class="w3-padding-16 w3-hover-black">
+            <img src="dubai.jpg" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Dubai</span><br>
+            <span>Nem preciso explicar kkk</span>
+          </li> 
+        </ul>
+      </div>
+
+      <div class="w3-third">
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="w3-tag w3-black w3-margin-bottom">Julia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">EsPCEx</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Campinas</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Miquéias</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">15/08</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">zap zap</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dubai</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Alícia</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Insta</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">2 meses</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cílios</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Bella Vista</span>
+          <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Produzido por <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">Miquéias Carvalho</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
